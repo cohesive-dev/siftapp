@@ -53,18 +53,6 @@ const Analytics = ({
                 </Grid>
               </AppGridContainer>
             </Grid>
-            <Grid item xs={12} lg={6}>
-              <SalesState
-                salesState={analyticsData.salesState}
-                chartData={analyticsData.salesChartData}
-              />
-            </Grid>
-            <Grid item xs={12} md={8} xl={9}>
-              <VisitorPageView data={analyticsData.visitorsPageView} />
-            </Grid>
-            <Grid item xs={12} md={4} xl={3}>
-              <MonthlyEarning earningGraphData={analyticsData.earningGraphData} />
-            </Grid>
           </AppGridContainer>
         </AppAnimate>
       )}
