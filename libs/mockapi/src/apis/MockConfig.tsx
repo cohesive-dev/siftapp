@@ -1,0 +1,5 @@
+import jwtAxios from '@sift/services/axios';
+
+import MockAdapter from 'axios-mock-adapter';
+
+export default new MockAdapter(jwtAxios, { delayResponse: 200 });
