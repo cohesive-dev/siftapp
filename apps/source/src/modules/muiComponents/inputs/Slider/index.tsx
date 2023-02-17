@@ -1,0 +1,2 @@
+import { Slider } from '@sift/modules/components/inputs';
+export default Slider;

@@ -1,0 +1,472 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "rootDir": ".",
+    "sourceMap": true,
+    "declaration": false,
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "importHelpers": true,
+    "target": "es2015",
+    "module": "esnext",
+    "lib": ["es2017", "dom"],
+    "skipLibCheck": true,
+    "skipDefaultLibCheck": true,
+    "baseUrl": ".",
+    "paths": {
+      "@sift/actions": ["libs/types/src/actions/index.ts"],
+      "@sift/actions/*": ["libs/types/src/actions/*"],
+      "@sift/components": ["libs/components/src/index.tsx"],
+      "@sift/components/AppAnimate": [
+        "libs/components/src/lib/AppAnimate/index.tsx"
+      ],
+      "@sift/components/AppAnimateGroup": [
+        "libs/components/src/lib/AppAnimateGroup/index.tsx"
+      ],
+      "@sift/components/AppAsyncComponent": [
+        "libs/components/src/lib/AppAsyncComponent/index.tsx"
+      ],
+      "@sift/components/AppAutoComplete": [
+        "libs/components/src/lib/AppFormComponents/AppAutoComplete/index.tsx"
+      ],
+      "@sift/components/AppAutocompleteField": [
+        "libs/components/src/lib/AppFormComponents/AppAutocompleteField.tsx"
+      ],
+      "@sift/components/AppBadge": [
+        "libs/components/src/lib/AppBadge/index.tsx"
+      ],
+      "@sift/components/AppCard": [
+        "libs/components/src/lib/AppCard/index.tsx"
+      ],
+      "@sift/components/AppCircularProgress": [
+        "libs/components/src/lib/AppCircularProgress/index.tsx"
+      ],
+      "@sift/components/AppComponentCard": [
+        "libs/components/src/lib/AppComponentCard/index.tsx"
+      ],
+      "@sift/components/AppComponentHeader": [
+        "libs/components/src/lib/AppComponentHeader/index.tsx"
+      ],
+      "@sift/components/AppConfirmDialog": [
+        "libs/components/src/lib/AppConfirmDialog/index.tsx"
+      ],
+      "@sift/components/AppContentView": [
+        "libs/components/src/lib/AppContentView/index.tsx"
+      ],
+      "@sift/components/AppDateFiled": [
+        "libs/components/src/lib/AppFormComponents/AppDateFiled.tsx"
+      ],
+      "@sift/components/AppDialog": [
+        "libs/components/src/lib/AppDialog/index.tsx"
+      ],
+      "@sift/components/AppEmptyResult": [
+        "libs/components/src/lib/AppEmptyResult/index.tsx"
+      ],
+      "@sift/components/AppErrorBoundary": [
+        "libs/components/src/lib/AppErrorBoundary/index.tsx"
+      ],
+      "@sift/components/AppGrid": [
+        "libs/components/src/lib/AppGrid/index.tsx"
+      ],
+      "@sift/components/AppGridContainer": [
+        "libs/components/src/lib/AppGridContainer/index.tsx"
+      ],
+      "@sift/components/AppImage": [
+        "libs/components/src/lib/AppImage/index.tsx"
+      ],
+      "@sift/components/AppInfoView": [
+        "libs/components/src/lib/AppInfoView/index.tsx"
+      ],
+      "@sift/components/AppLayout": [
+        "libs/components/src/lib/AppLayout/index.tsx"
+      ],
+      "@sift/components/AppLinearProgress": [
+        "libs/components/src/lib/AppLinearProgress/index.tsx"
+      ],
+      "@sift/components/AppList": [
+        "libs/components/src/lib/AppList/index.tsx"
+      ],
+      "@sift/components/AppList/ListEmptyResult": [
+        "libs/components/src/lib/AppList/ListEmptyResult.tsx"
+      ],
+      "@sift/components/AppList/ListFooter": [
+        "libs/components/src/lib/AppList/ListFooter.tsx"
+      ],
+      "@sift/components/AppLngSwitcher": [
+        "libs/components/src/lib/AppLngSwitcher/index.tsx"
+      ],
+      "@sift/components/AppLoader": [
+        "libs/components/src/lib/AppLoader/index.tsx"
+      ],
+      "@sift/components/AppLogo": [
+        "libs/components/src/lib/AppLayout/components/AppLogo/index.tsx"
+      ],
+      "@sift/components/AppMediaViewer": [
+        "libs/components/src/lib/AppMediaViewer/index.tsx"
+      ],
+      "@sift/components/AppMenu": [
+        "libs/components/src/lib/AppMenu/index.tsx"
+      ],
+      "@sift/components/AppMessageView": [
+        "libs/components/src/lib/AppMessageView/index.tsx"
+      ],
+      "@sift/components/AppMessages": [
+        "libs/components/src/lib/AppMessages/index.tsx"
+      ],
+      "@sift/components/AppMessages/MessageItem": [
+        "libs/components/src/lib/AppMessages/MessageItem.tsx"
+      ],
+      "@sift/components/AppNavLink": [
+        "libs/components/src/lib/AppNavLink/index.tsx"
+      ],
+      "@sift/components/AppNotifications": [
+        "libs/components/src/lib/AppNotifications/index.tsx"
+      ],
+      "@sift/components/AppNotifications/NotificationItem": [
+        "libs/components/src/lib/AppNotifications/NotificationItem.tsx"
+      ],
+      "@sift/components/AppPageMeta": [
+        "libs/components/src/lib/AppPageMeta/index.tsx"
+      ],
+      "@sift/components/AppScrollbar": [
+        "libs/components/src/lib/AppScrollbar/index.tsx"
+      ],
+      "@sift/components/AppSearchBar": [
+        "libs/components/src/lib/AppSearchBar/index.tsx"
+      ],
+      "@sift/components/AppSelect": [
+        "libs/components/src/lib/AppSelect/index.tsx"
+      ],
+      "@sift/components/AppSelectField": [
+        "libs/components/src/lib/AppFormComponents/AppSelectField.tsx"
+      ],
+      "@sift/components/AppSelectedIcon": [
+        "libs/components/src/lib/AppSelectedIcon/index.tsx"
+      ],
+      "@sift/components/AppSemiCircleProgress": [
+        "libs/components/src/lib/AppSemiCircleProgress/index.tsx"
+      ],
+      "@sift/components/AppSuspense": [
+        "libs/components/src/lib/AppSuspense/index.tsx"
+      ],
+      "@sift/components/AppTableContainer": [
+        "libs/components/src/lib/AppTableContainer/index.tsx"
+      ],
+      "@sift/components/AppTextField": [
+        "libs/components/src/lib/AppFormComponents/AppTextField.tsx"
+      ],
+      "@sift/components/AppThemeSetting": [
+        "libs/components/src/lib/AppThemeSetting/index.tsx"
+      ],
+      "@sift/components/AppTooltip": [
+        "libs/components/src/lib/AppTooltip/index.tsx"
+      ],
+      "@sift/components/AppsContainer": [
+        "libs/components/src/lib/AppsContainer/index.tsx"
+      ],
+      "@sift/components/AppsContent": [
+        "libs/components/src/lib/AppsContainer/AppsContent/index.tsx"
+      ],
+      "@sift/components/AppsDeleteIcon": [
+        "libs/components/src/lib/AppsDeleteIcon/index.tsx"
+      ],
+      "@sift/components/AppsFooter": [
+        "libs/components/src/lib/AppsContainer/AppsFooter.tsx"
+      ],
+      "@sift/components/AppsHeader": [
+        "libs/components/src/lib/AppsContainer/AppsHeader.tsx"
+      ],
+      "@sift/components/AppsPagination": [
+        "libs/components/src/lib/AppsPagination/index.tsx"
+      ],
+      "@sift/components/AppsSideBarFolderItem": [
+        "libs/components/src/lib/AppsSideBarFolderItem/index.tsx"
+      ],
+      "@sift/components/AppsStarredIcon": [
+        "libs/components/src/lib/AppsStarredIcon/index.tsx"
+      ],
+      "@sift/components/AuthRoutes": [
+        "libs/components/src/lib/AuthRoutes.tsx"
+      ],
+      "@sift/components/ChartTooltip": [
+        "libs/components/src/lib/ChartTooltip/index.tsx"
+      ],
+      "@sift/components/ChatListSkeleton": [
+        "libs/components/src/lib/AppSkeleton/ChatListSkeleton.tsx"
+      ],
+      "@sift/components/ContactListSkeleton": [
+        "libs/components/src/lib/AppSkeleton/ContactListSkeleton.tsx"
+      ],
+      "@sift/components/EmailListSkeleton": [
+        "libs/components/src/lib/AppSkeleton/EmailListSkeleton.tsx"
+      ],
+      "@sift/components/FeedPlaceholder": [
+        "libs/components/src/lib/AppSkeleton/FeedPlaceholder.tsx"
+      ],
+      "@sift/components/MailDetailSkeleton": [
+        "libs/components/src/lib/AppSkeleton/MailDetailSkeleton.tsx"
+      ],
+      "@sift/components/SidebarListSkeleton": [
+        "libs/components/src/lib/AppSkeleton/SidebarListSkeleton.tsx"
+      ],
+      "@sift/components/TableHeader": [
+        "libs/components/src/lib/AppTable/TableHeader.tsx"
+      ],
+      "@sift/components/TodoListSkeleton": [
+        "libs/components/src/lib/AppSkeleton/TodoListSkeleton.tsx"
+      ],
+      "@sift/constants": ["libs/constants/src/index.ts"],
+      "@sift/constants/ActionTypes": ["libs/constants/src/ActionTypes.ts"],
+      "@sift/constants/AppConst": ["libs/constants/src/AppConst.ts"],
+      "@sift/constants/AppEnums": ["libs/constants/src/AppEnums.ts"],
+      "@sift/constants/ColorSets": ["libs/constants/src/ColorSets.ts"],
+      "@sift/constants/db/navigationStyle": [
+        "libs/mockapi/src/fakedb/navigationStyle.tsx"
+      ],
+      "@sift/constants/defaultConfig": ["libs/constants/src/defaultConfig.ts"],
+      "@sift/context": ["libs/context/src/index.ts"],
+      "@sift/context/AppContextProvider": [
+        "libs/context/src/AppContextProvider/index.tsx"
+      ],
+      "@sift/context/AppLocaleProvider": [
+        "libs/context/src/AppLocaleProvider/index.tsx"
+      ],
+      "@sift/context/AppStyleProvider": [
+        "libs/context/src/AppStyleProvider/index.tsx"
+      ],
+      "@sift/context/AppThemeProvider": [
+        "libs/context/src/AppThemeProvider/index.tsx"
+      ],
+      "@sift/context/InfoViewContextProvider": [
+        "libs/context/src/AppContextProvider/InfoViewContextProvider.tsx"
+      ],
+      "@sift/context/LayoutContextProvider": [
+        "libs/context/src/AppContextProvider/LayoutContextProvider.tsx"
+      ],
+      "@sift/context/LocaleContextProvider": [
+        "libs/context/src/AppContextProvider/LocaleContextProvider.tsx"
+      ],
+      "@sift/context/SidebarContextProvider": [
+        "libs/context/src/AppContextProvider/SidebarContextProvider.tsx"
+      ],
+      "@sift/context/ThemeContextProvider": [
+        "libs/context/src/AppContextProvider/ThemeContextProvider.tsx"
+      ],
+      "@sift/fakedb": ["libs/fakedb/src/index.ts"],
+      "@sift/fakedb/chat/connectionList": [
+        "libs/mockapi/src/fakedb/apps/chat/connectionList.ts"
+      ],
+      "@sift/fakedb/data": ["libs/mockapi/src/fakedb/index.ts"],
+      "@sift/fakedb/ecommerceData": [
+        "libs/mockapi/src/fakedb/ecommerce/index.tsx"
+      ],
+      "@sift/fakedb/extraPages": [
+        "libs/mockapi/src/fakedb/extraPages/index.tsx"
+      ],
+      "@sift/fakedb/mail/folderList": [
+        "libs/mockapi/src/fakedb/apps/mail/folderList.ts"
+      ],
+      "@sift/fakedb/navigationStyle": [
+        "libs/mockapi/src/fakedb/navigationStyle.ts"
+      ],
+      "@sift/helpers": ["libs/helpers/src/index.ts"],
+      "@sift/helpers/IntlMessages": ["libs/helpers/src/IntlMessages.tsx"],
+      "@sift/helpers/RouteGenerator": ["libs/helpers/src/RouteGenerator.tsx"],
+      "@sift/hooks": ["libs/hooks/src/index.tsx"],
+      "@sift/hooks/APIHooks": ["libs/hooks/src/APIHooks.tsx"],
+      "@sift/hooks/AuthHelper": ["libs/helpers/src/AuthHelper.ts"],
+      "@sift/hooks/AuthHooks": ["libs/hooks/src/AuthHooks.ts"],
+      "@sift/mockapi": ["libs/mockapi/src/index.ts"],
+      "@sift/models/*": ["libs/types/src/models/*"],
+      "@sift/modules": ["libs/modules/src/index.ts"],
+      "@sift/modules/ErrorPages/ComingSoon": [
+        "libs/modules/src/lib/errorPages/ComingSoon/index.tsx"
+      ],
+      "@sift/modules/ErrorPages/Error401": [
+        "libs/modules/src/lib/errorPages/Error401/index.tsx"
+      ],
+      "@sift/modules/ErrorPages/Error403": [
+        "libs/modules/src/lib/errorPages/Error403/index.tsx"
+      ],
+      "@sift/modules/ErrorPages/Error404": [
+        "libs/modules/src/lib/errorPages/Error404/index.tsx"
+      ],
+      "@sift/modules/ErrorPages/Error500": [
+        "libs/modules/src/lib/errorPages/Error500/index.tsx"
+      ],
+      "@sift/modules/ErrorPages/Error503": [
+        "libs/modules/src/lib/errorPages/Error503/index.tsx"
+      ],
+      "@sift/modules/ErrorPages/Maintenance": [
+        "libs/modules/src/lib/errorPages/Maintenance/index.tsx"
+      ],
+      "@sift/modules/MyProfile": [
+        "libs/modules/src/lib/account/MyProfile/index.tsx"
+      ],
+      "@sift/modules/apps/Chat": ["libs/modules/src/lib/apps/Chat/index.tsx"],
+      "@sift/modules/apps/Contact": [
+        "libs/modules/src/lib/apps/Contact/index.tsx"
+      ],
+      "@sift/modules/apps/Mail": ["libs/modules/src/lib/apps/Mail/index.tsx"],
+      "@sift/modules/apps/ScrumBoard": [
+        "libs/modules/src/lib/apps/ScrumBoard/index.tsx"
+      ],
+      "@sift/modules/apps/ScrumBoard/Detail": [
+        "libs/modules/src/lib/apps/ScrumBoard/BoardDetail/index.tsx"
+      ],
+      "@sift/modules/apps/ToDo": ["libs/modules/src/lib/apps/ToDo/index.tsx"],
+      "@sift/modules/apps/Wall": ["libs/modules/src/lib/apps/Wall/index.tsx"],
+      "@sift/modules/auth/ForgetPassword": [
+        "libs/modules/src/lib/auth/ForgetPassword/index.tsx"
+      ],
+      "@sift/modules/auth/SignIn": [
+        "libs/modules/src/lib/auth/Signin/index.tsx"
+      ],
+      "@sift/modules/auth/SignUp": [
+        "libs/modules/src/lib/auth/Signup/index.tsx"
+      ],
+      "@sift/modules/components/dataDisplay": [
+        "libs/modules/src/lib/muiComponents/dataDisplay/index.tsx"
+      ],
+      "@sift/modules/components/datagrid": [
+        "libs/modules/src/lib/muiComponents/datagrid/index.tsx"
+      ],
+      "@sift/modules/components/feedBack": [
+        "libs/modules/src/lib/muiComponents/feedback/index.tsx"
+      ],
+      "@sift/modules/components/inputs": [
+        "libs/modules/src/lib/muiComponents/inputs/index.tsx"
+      ],
+      "@sift/modules/components/lab": [
+        "libs/modules/src/lib/muiComponents/lab/index.tsx"
+      ],
+      "@sift/modules/components/layout": [
+        "libs/modules/src/lib/muiComponents/layout/index.tsx"
+      ],
+      "@sift/modules/components/navigation": [
+        "libs/modules/src/lib/muiComponents/navigation/index.tsx"
+      ],
+      "@sift/modules/components/surfaces": [
+        "libs/modules/src/lib/muiComponents/surfaces/index.tsx"
+      ],
+      "@sift/modules/components/utils": [
+        "libs/modules/src/lib/muiComponents/utils/index.tsx"
+      ],
+      "@sift/modules/dashboards/Academy": [
+        "libs/modules/src/lib/dashboards/Academy/index.tsx"
+      ],
+      "@sift/modules/dashboards/Analytics": [
+        "libs/modules/src/lib/dashboards/Analytics/index.tsx"
+      ],
+      "@sift/modules/dashboards/CRM": [
+        "libs/modules/src/lib/dashboards/CRM/index.tsx"
+      ],
+      "@sift/modules/dashboards/Crypto": [
+        "libs/modules/src/lib/dashboards/Crypto/index.tsx"
+      ],
+      "@sift/modules/dashboards/ECommerce": [
+        "libs/modules/src/lib/dashboards/ECommerce/index.tsx"
+      ],
+      "@sift/modules/dashboards/HealthCare": [
+        "libs/modules/src/lib/dashboards/HealthCare/index.tsx"
+      ],
+      "@sift/modules/dashboards/Metrics": [
+        "libs/modules/src/lib/dashboards/Metrics/index.tsx"
+      ],
+      "@sift/modules/dashboards/Widgets": [
+        "libs/modules/src/lib/dashboards/Widgets/index.tsx"
+      ],
+      "@sift/modules/ecommerce/Carts": [
+        "libs/modules/src/lib/ecommerce/Carts/index.tsx"
+      ],
+      "@sift/modules/ecommerce/Checkout": [
+        "libs/modules/src/lib/ecommerce/Checkout/index.tsx"
+      ],
+      "@sift/modules/ecommerce/Confirmation": [
+        "libs/modules/src/lib/ecommerce/Confirmation/index.tsx"
+      ],
+      "@sift/modules/ecommerce/Customers": [
+        "libs/modules/src/lib/ecommerce/Customers/index.tsx"
+      ],
+      "@sift/modules/ecommerce/Invoice1": [
+        "libs/modules/src/lib/ecommerce/Invoice1/index.tsx"
+      ],
+      "@sift/modules/ecommerce/Invoice2": [
+        "libs/modules/src/lib/ecommerce/Invoice2/index.tsx"
+      ],
+      "@sift/modules/ecommerce/Invoice3": [
+        "libs/modules/src/lib/ecommerce/Invoice3/index.tsx"
+      ],
+      "@sift/modules/ecommerce/OrderSummary": [
+        "libs/modules/src/lib/ecommerce/OrderSummary/index.tsx"
+      ],
+      "@sift/modules/ecommerce/Orders": [
+        "libs/modules/src/lib/ecommerce/Orders/index.tsx"
+      ],
+      "@sift/modules/ecommerce/ProductDetail": [
+        "libs/modules/src/lib/ecommerce/ProductDetail/index.tsx"
+      ],
+      "@sift/modules/ecommerce/Products": [
+        "libs/modules/src/lib/ecommerce/Products/index.tsx"
+      ],
+      "@sift/modules/extraPages/AboutUs": [
+        "libs/modules/src/lib/extraPages/AboutUs/index.tsx"
+      ],
+      "@sift/modules/extraPages/ContactUs": [
+        "libs/modules/src/lib/extraPages/ContactUs/index.tsx"
+      ],
+      "@sift/modules/extraPages/FAQ": [
+        "libs/modules/src/lib/extraPages/FAQ/index.tsx"
+      ],
+      "@sift/modules/extraPages/KnowledgeBase": [
+        "libs/modules/src/lib/extraPages/KnowledgeBase/index.tsx"
+      ],
+      "@sift/modules/extraPages/Portfolio": [
+        "libs/modules/src/lib/extraPages/Portfolio/index.tsx"
+      ],
+      "@sift/modules/extraPages/Pricing": [
+        "libs/modules/src/lib/extraPages/Pricing/index.tsx"
+      ],
+      "@sift/modules/thirdParty": [
+        "libs/modules/src/lib/thirdParty/index.tsx"
+      ],
+      "@sift/modules/userList/Flat": [
+        "libs/modules/src/lib/userList/Flat/index.tsx"
+      ],
+      "@sift/modules/userList/Modern": [
+        "libs/modules/src/lib/userList/Modern/index.tsx"
+      ],
+      "@sift/modules/userList/Standard": [
+        "libs/modules/src/lib/userList/Standard/index.tsx"
+      ],
+      "@sift/modules/userPages": ["libs/modules/src/lib/userPages/index.tsx"],
+      "@sift/redux": ["libs/redux/src/index.ts"],
+      "@sift/redux-toolkit": ["libs/redux-toolkit/src/index.ts"],
+      "@sift/redux/actions": ["libs/redux/src/actions/index.ts"],
+      "@sift/redux/reducers": ["libs/redux/src/reducers/index.ts"],
+      "@sift/redux/store": ["libs/redux/src/store/index.ts"],
+      "@sift/services/auth": ["libs/services/auth/src/index.ts"],
+      "@sift/services/auth/AWSAuthProvider": [
+        "libs/services/auth/src/aws-cognito/AWSAuthProvider.tsx"
+      ],
+      "@sift/services/auth/Auth0Provider": [
+        "libs/services/auth/src/auth0/Auth0Provider.tsx"
+      ],
+      "@sift/services/auth/FirebaseAuthProvider": [
+        "libs/services/auth/src/firebase/FirebaseAuthProvider.tsx"
+      ],
+      "@sift/services/auth/JWT": ["libs/services/auth/src/jwt-auth/index.tsx"],
+      "@sift/services/auth/JWTAuthProvider": [
+        "libs/services/auth/src/jwt-auth/JWTAuthProvider.tsx"
+      ],
+      "@sift/services/axios": ["libs/services/axios/src/index.ts"],
+      "@sift/services/localization": [
+        "libs/services/localization/src/index.ts"
+      ],
+      "@sift/svg-icons": ["libs/svg-icons/src/index.ts"],
+      "@sift/types/AppContext": ["libs/types/src/AppContext.tsx"]
+    }
+  },
+  "exclude": ["node_modules", "tmp"]
+}
